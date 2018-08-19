@@ -111,7 +111,7 @@ int main( int argc, char** argv )
   imshow( source_window, src );
   }
   thresh_callback(0,0);
-  export_svg(bigContour, "/home/rommac100/contour.svg");
+  export_svg(bigContour, "contour.svg");
 
   if (showWindow)
   {
